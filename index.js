@@ -29,7 +29,7 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  newK=kittens.slice(0,kittens.length)
+  newK=kittens.slice(0,kittens.length-1)
 }
 //   describe('removeLastKitten()', function() {
 //     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
