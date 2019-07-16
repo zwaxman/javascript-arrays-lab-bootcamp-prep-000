@@ -2,6 +2,7 @@ var kittens = [] //define your array here
 
 function kittens(){
   var kittens = ["Milo", "Otis", "Garfield"];
+  return kittens
 }
 
 // describe('Arrays', function() {
