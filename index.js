@@ -32,6 +32,11 @@ function removeLastKitten(){
   var newK=kittens.slice(0,kittens.length-1)
   return newK
 }
+
+function removeFirstKitten(){
+  var newK=kittens.slice(1)
+  return newK
+}
 //   describe('removeLastKitten()', function() {
 //     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
 //       window.kittens = ['Milo', 'Otis', 'Garfield'];
