@@ -9,14 +9,11 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
   return kittens
 }
-//   describe('destructivelyPrependKitten(name)', function() {
-//     it('prepends a kitten to the beginning of the kittens array', function() {
-//       window.kittens = ['Milo', 'Otis', 'Garfield'];
-//       destructivelyPrependKitten("Bob")
 
-//       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
-//     })
-//   })
+function destructivelyRemoveLastKitten(){
+  kittens.pop()
+  return kittens
+}
 
 //   describe('destructivelyRemoveLastKitten()', function() {
 //     it('removes the last kitten from the kittens array', function() {
