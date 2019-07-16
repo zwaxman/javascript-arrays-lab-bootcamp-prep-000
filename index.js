@@ -1,9 +1,4 @@
-var kittens = [] //define your array here
-
-function kittens(){
-  var kittens = ["Milo", "Otis", "Garfield"];
-  return kittens
-}
+var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // describe('Arrays', function() {
 //   describe('kittens', function() {
